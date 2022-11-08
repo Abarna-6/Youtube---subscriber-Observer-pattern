@@ -1,6 +1,7 @@
 import java.util.*;
 public class Channel 
 {
+    // notify subscribers
     private List  <Subscriber> subs=new ArrayList <>();
      String title;
    public void subscribe (Subscriber sub)
